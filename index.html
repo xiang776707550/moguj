@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div id="fixedbar">
+			<div class="photo">
+				
+			</div>
+			<div class="car">
+				<a href="#">
+					<i></i>
+					<div class="small">
+						购物车
+					</div>
+				</a>
+			</div>
+			<div class="juan">
+				<a href="#">
+					<i></i>
+					<div class="small">
+						优惠卷
+					</div>
+				</a>
+			</div>
+			<div class="money">
+				<a href="#">
+					<i></i>
+					<div class="small">
+						钱包
+					</div>
+				</a>
+			</div>
+			<div class="footer">
+				<a href="#">
+					<i></i>
+					<div class="small">
+						足迹
+					</div>
+				</a>
+			</div>
+			<div class="Top">
+				<a href="#">
+					<i>^</i>
+					<div class="small">
+						TOP
+					</div>
+				</a>
+			</div>
+		</div>
+		<div id="header" class="site-top-nav">
+			<div class="wrap wrap1">
+				<a class="home fl" href="index.html">蘑菇街首页</a>
+				<ul class="header-top">
+					<li class="sl">
+						<a href="logon.html">注册</a>
+					</li>
+					<li class="sl">
+						<a href="login.html">登录</a>
+					</li>
+					<li class="sl myorder has-line">
+						<a href="javascript:;">我的订单</a>
+					</li>
+					<li class="sl has-line shopping-cart-v2">
+						<a class="cart-info-wrap" href="shopcart.html">购物车</a>
+						<i class="icon-delta"></i>
+						<!--<span class="shopping-cart-loading"></span>-->
+						<div class="shop-cart-info empty-cart">购物车里没有商品！</div>
+					</li>
+					<li class="sl has-line has-icon custom-item">
+						<a href="javascript:;">客服服务</a>
+						<i class="icon-delta"></i>
+						<ol class="ext-mode">
+							<li class="s2">
+								<a href="index.html" target="_blank">消费者服务</a>
+							</li>
+							<li class="s2">
+								<a href="index.html" target="_blank">商家服务</a>
+							</li>
+							<li class="s2">
+								<a href="index.html" target="_blank">规则中心</a>
+							</li>
+						</ol>
+					</li>
+					<li class="sl has-line has-icon myxiaodian">
+						<a href="javascript:;">我的小店</a>
+						<i class="icon-delta"></i>
+						<ol class="ext-mode1">
+							<li class="s2">
+								<a href="index.html" target="_blank">后台管理</a>
+							</li>
+							<li class="s2">
+								<a href="index.html" target="_blank">商家社区</a>
+							</li>
+							<li class="s2">
+								<a href="index.html" target="_blank">商家培训</a>
+							</li>
+							<li class="s2">
+								<a href="index.html" target="_blank">市场入住</a>
+							</li>
+						</ol>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--中间区域-->
+		<div class="header_mid clearfix">
+			<div class="wrap wrap1 clearfix">
+				<a class="logo" href="index.html" title="蘑菇街首页"></a>
+
+				<div class="normal-search-content">
+					<div class="top_nav_search" id="nav_search_form">
+						<!--搜索框 -->
+						<div class="search_inner_box clear">
+							<div class="selectbox" data-v="1">
+								<span class="selected">搜商品
+	                        	<ol class="wo">
+		                            <li class="current" data-index="bao"><a href="#">商品</a></li>
+		                            <li data-index="shop"><a href="#">店铺</a></li>
+	                        	</ol>
+	                        </span>
+
+							</div>
+							<form action="/search/" method="get" id="top_nav_form">
+								<input class="ts_txt fl" id="ts_txt" value="宽松显瘦纯色短裤" type="text">
+								<ul id="list">
+									<li>
+										<a href="" class="act">历史记录</a>
+										<span class="del">
+											删除
+										</span>
+									</li>
+								</ul>
+								<input value="搜  索" class="ts_btn" type="submit">
+								<input value="bao" id="select_type" type="hidden">
+							</form>
+							<!--<div class="top_search_hint is-not-ie8-hack"></div>-->
+						</div>
+
+						<div class="ts_hotwords">
+							<a class="ts_hotword" href="list.html" style="color: #ff4466;">时尚套装</a>
+							<a class="ts_hotword" href="list.html" >手机壳</a>
+							<a class="ts_hotword" href="list.html" >双眼皮贴</a>
+							<a class="ts_hotword" href="list.html">短袖t恤</a>
+							<a class="ts_hotword" href="list.html" style="color: #ff4466;">短裤</a>
+							<a class="ts_hotword" href="list.html">小白鞋</a>
+							<a class="ts_hotword" href="list.html">睡衣</a>
+							<a class="ts_hotword" href="list.html">口红</a>
+							<a class="ts_hotword" href="list.html">凉鞋</a>
+							<a class="ts_hotword" href="list.html">连衣裙</a>
+						</div>
+					</div>
+				</div>
+				<div class="mid_fr">
+					<a href="index.html" target="_blank" class="code_wrap"><img src="images/t2.png" alt="蘑菇街，我的买手街"></a>
+				</div>
+			</div>
+		</div>
+		<div id="body_wrap">
+			<div class="page_activity">
+				
+				
+				<div class="module_row module_row_485405 MOD_ID_346269 has-log-mod">
+					<div class="mod_row MCUBE_MOD_ID_346269 J_mod_row_show">
+
+						<div class="main_topnav_content clearfix wrap wrap1">
+							<!--导航开始-->
+				<div class="pc_indexPage_nav_menu fl cube-acm-node has-log-mod">
+						<ul class="nav_list dropdown-menu" role="mebu">
+
+							<!-- 遍历生成样式 -->
+							<li class="nav_list_row nav_list_row_first">
+								<dl class="nav_wrap">
+									<dt class="nav_list_title">
+									<a class="catagory" target="_blank" href="list.html">上衣</a>
+								</dt>
+									<dd class="nav_list_content">
+										<span class="nav_list_content_span">
+										<a class="first" target="_blank" href="list.html">时尚套装<span class="nav_list_tagicon"></span></a><ins></ins>
+										<a target="_blank" href="list.html">T恤</a>
+										<ins class="when_960_hidden"></ins>
+										<a class="when_960_hidden" target="_blank" href="list.html">雪纺衫</a>
+										</span>
+									</dd>
+								</dl>
+							</li>
+							<li class="nav_list_row">
+								<dl class="nav_wrap">
+									<dt class="nav_list_title">
+									<a class="catagory" target="_blank" href="list.html">裙子</a>
+								</dt>
+									<dd class="nav_list_content">
+										<span class="nav_list_content_span">
+										<a class="first" target="_blank" href="list.html">连衣裙<span class="nav_list_tagicon"></span></a><ins></ins>
+										<a target="_blank" href="list.html">半身裙</a>
+										<ins class="when_960_hidden"></ins>
+										<a class="when_960_hidden" target="_blank" href="list.html">雪纺裙</a>
+										</span>
+									</dd>
+								</dl>
+							</li>
+							<li class="nav_list_row">
+								<dl class="nav_wrap">
+									<dt class="nav_list_title">
+									<a class="catagory" target="_blank" href="list.html">裤子</a>
+								</dt>
+									<dd class="nav_list_content">
+										<span class="nav_list_content_span">
+										<a class="first" target="_blank" href="list.html">短裤</a><ins></ins>
+										<a target="_blank" href="list.html">休闲裤</a>
+										<ins class="when_960_hidden"></ins>
+										<a class="when_960_hidden" rel="nofollow" target="_blank" href="list.html">牛仔裤</a>
+									</span>
+									</dd>
+								</dl>
+							</li>
+							<li class="nav_list_row" data-topic="underwear">
+								<dl class="nav_wrap">
+									<dt class="nav_list_title">
+									<a class="catagory" target="_blank" href="list.html">女鞋</a>
+								</dt>
+									<dd class="nav_list_content">
+										<span class="nav_list_content_span">
+										<a class="first" target="_blank" href="list.html">单鞋<span class="nav_list_tagicon"></span></a><ins></ins>
+										<a target="_blank" href="list.html">小白鞋</a>
+										<ins class="when_960_hidden"></ins>
+										<a class="when_960_hidden" rel="nofollow" target="_blank" href="list.html">凉鞋</a>
+										</span>
+									</dd>
+								</dl>
+							</li>
+							<li class="nav_list_row">
+								<dl class="nav_wrap">
+									<dt class="nav_list_title">
+									<a class="catagory" target="_blank" href="list.html">男友</a>
+								</dt>
+									<dd class="nav_list_content">
+										<span class="nav_list_content_span">
+										<a class="first" target="_blank" href="list.html">潮T</a><ins></ins>
+										<a target="_blank" href="list.html">休闲裤</a>
+										<ins class="when_960_hidden"></ins>
+										<a class="when_960_hidden" rel="nofollow" target="_blank" href="list.html">休闲鞋<span class="nav_list_tagicon"></span></a>
+										</span>
+									</dd>
+								</dl>
+							</li>
+							<li class="nav_list_row">
+								<dl class="nav_wrap">
+									<dt class="nav_list_title">
+									<a class="catagory" target="_blank" href="list.html">内衣</a>
+								</dt>
+									<dd class="nav_list_content">
+										<span class="nav_list_content_span">
+										<a class="first" target="_blank" href="list.html">少女内衣</a><ins></ins>
+										<a target="_blank" href="list.html">睡衣</a>
+										<ins class="when_960_hidden"></ins>
+										<a class="when_960_hidden" rel="nofollow" target="_blank" href="list.html">内裤</a>
+									</span>
+									</dd>
+								</dl>
+							</li>
+							<li class="nav_list_row">
+								<dl class="nav_wrap">
+									<dt class="nav_list_title">
+									<a class="catagory" target="_blank" href="http://list.mogujie.com/book/bags/50675">包包</a>
+								</dt>
+									<dd class="nav_list_content">
+										<span class="nav_list_content_span">
+										<a class="first" target="_blank" href="list.html">斜挎包</a><ins></ins>
+										<a target="_blank" href="list.html">旅行箱</a>
+										<ins class="when_960_hidden"></ins>
+										<a class="when_960_hidden" rel="nofollow" target="_blank" href="list.html">双肩包</a>
+									</span>
+									</dd>
+								</dl>
+							</li>
+							<li class="nav_list_row">
+								<dl class="nav_wrap">
+									<dt class="nav_list_title">
+									<a class="catagory" target="_blank" href="list.html">运动</a>
+								</dt>
+									<dd class="nav_list_content">
+										<span class="nav_list_content_span">
+										<a class="first" target="_blank" href="list.html">夏日泳装<span class="nav_list_tagicon"></span></a><ins></ins>
+										<a target="_blank" href="list.html">运动套装</a>
+										<ins class="when_960_hidden"></ins>
+										<a class="when_960_hidden" target="_blank" href="list.html">运动鞋</a>
+										</span>
+									</dd>
+								</dl>
+							</li>
+							<li class="nav_list_row">
+								<dl class="nav_wrap">
+									<dt class="nav_list_title">
+									<a class="catagory" target="_blank" href="list.html">美妆</a>
+								</dt>
+									<dd class="nav_list_content">
+										<span class="nav_list_content_span">
+										<a class="first" target="_blank" href="list.html">面膜</a><ins></ins>
+										<a target="_blank" href="list.html">护肤套装<span class="nav_list_tagicon"></span></a>
+										<ins class="when_960_hidden"></ins>
+										<a class="when_960_hidden" target="_blank" href="list.html">BB霜</a>
+										</span>
+									</dd>
+								</dl>
+							</li>
+							<li class="nav_list_row">
+								<dl class="nav_wrap">
+									<dt class="nav_list_title">
+									<a class="catagory" target="_blank" href="list.html">配饰</a>
+								</dt>
+									<dd class="nav_list_content">
+										<span class="nav_list_content_span">
+										<a class="first" target="_blank" href="list.html">耳环新品</a><ins></ins>
+										<a target="_blank" href="list.html">项链<span class="nav_list_tagicon"></span></a>
+										<ins class="when_960_hidden"></ins>
+										<a class="when_960_hidden" target="_blank" href="list.html">帽子</a>
+										</span>
+									</dd>
+								</dl>
+							</li>
+							<li class="nav_list_row">
+								<dl class="nav_wrap">
+									<dt class="nav_list_title">
+									<a class="catagory" target="_blank" href="list.html">家居</a>
+								</dt>
+									<dd class="nav_list_content">
+										<span class="nav_list_content_span">
+										<a class="first" target="_blank" href="list.html">家居鞋</a><ins></ins>
+										<a target="_blank" href="list.html">四件套</a>
+										<ins class="when_960_hidden"></ins>
+										<a class="when_960_hidden" target="_blank" href="list.html">小家具</a>
+									</span>
+									</dd>
+								</dl>
+							</li>
+							<li class="nav_list_row">
+								<dl class="nav_wrap">
+									<dt class="nav_list_title">
+									<a class="catagory" target="_blank" href="list.html">母婴</a>
+								</dt>
+									<dd class="nav_list_content">
+										<span class="nav_list_content_span">
+										<a class="first" target="_blank" href="list.html">孕妇装<span class="nav_list_tagicon"></span></a><ins></ins>
+										<a target="_blank" href="list.html">童装套装</a>
+										<ins class="when_960_hidden"></ins>
+										<a class="when_960_hidden" target="_blank" href="list.html">孕妇洗护</a>
+										</span>
+									</dd>
+								</dl>
+							</li>
+							<li class="nav_list_row">
+								<dl class="nav_wrap">
+									<dt class="nav_list_title">
+									<a class="catagory" target="_blank" href="list.html">食品</a>
+								</dt>
+									<dd class="nav_list_content">
+										<span class="nav_list_content_span">
+										<a class="first" target="_blank" href="list.html">休闲食品</a><ins></ins>
+										<a target="_blank" href="list.html">进口食品</a>
+										<ins class="when_960_hidden"></ins>
+										<a class="when_960_hidden" target="_blank" href="list.html">方便速食</a>
+									</span>
+									</dd>
+								</dl>
+							</li>
+							<li class="nav_list_row">
+								<dl class="nav_wrap">
+									<dt class="nav_list_title">
+									<a class="catagory" target="_blank" href="list.html">电器</a>
+								</dt>
+									<dd class="nav_list_content">
+										<span class="nav_list_content_span">
+										<a class="first" target="_blank" href="list.html">手机</a>
+										<a target="_blank" href="list.html">小家电</a>
+										<ins class="when_960_hidden"></ins>
+										<a class="when_960_hidden" target="_blank" href="list.html">手机壳</a>
+									</span>
+									</dd>
+								</dl>
+							</li>
+						</ul>
+
+						<!-- hover展开部分 -->
+						<div class="nav_more_content" id="nav_more_content">
+							<div class="sub_catagory coat" style="display: none;">
+								<div class="nav_more_left_content">
+									<div class="coat">
+										<h3></h3>
+									<div class="nav-top">
+										
+										<p class="clearfix">
+											<span></span>
+											<a href="javascript:;">更多 ></a>
+										</p>
+										<ul>
+											<!--<li><a href="index.html">背心吊带</a></li>
+											<li><a href="index.html">背心吊带</a></li>
+											<li><a href="index.html">背心吊带</a></li>
+											<li><a href="index.html">背心吊带</a></li>
+											<li style="color:#f07;"><a href="index.html">背心吊带</a></li>
+											<li><a href="index.html">背心吊带</a></li>-->
+											
+										</ul>
+									</div>
+									<div class="nav-center">
+										<p class="clearfix">
+											<span></span>
+											<a href="javascript:;">更多 ></a>
+										</p>
+										<ul>
+											<!--<li><a href="index.html">背心吊带</a></li>
+											<li><a href="index.html">背心吊带</a></li>
+											<li><a href="index.html">背心吊带</a></li>
+											<li><a href="index.html">背心吊带</a></li>
+											<li style="color:#f07;"><a href="index.html">背心吊带</a></li>
+											<li><a href="index.html">背心吊带</a></li>-->
+											
+										</ul>
+									</div>
+									<div class="nav-bottom">
+										<p class="clearfix">
+											<span></span>
+											<a href="javascript:;">更多 ></a>
+										</p>
+										<ul>
+											<!--<li><a href="index.html">背心吊带</a></li>
+											<li><a href="index.html">背心吊带</a></li>
+											<li><a href="index.html">背心吊带</a></li>
+											<li><a href="index.html">背心吊带</a></li>
+											<li style="color:#f07;"><a href="index.html">背心吊带</a></li>
+											<li><a href="index.html">背心吊带</a></li>
+											<li><a href="index.html">背心吊带</a></li>
+											<li><a href="index.html">背心吊带</a></li>-->
+											
+										</ul>
+									</div>
+									<div class="nav-bottom-b">
+										<p class="clearfix">
+											<span></span>
+											<a href="javascript:;">更多 ></a>
+										</p>
+										<ul>
+											<!--<li><a href="index.html"><img src="images/t5.jpg"/></a></li>
+											<li><a href="index.html"><img src="images/t5.jpg"/></a></li>
+											<li><a href="index.html"><img src="images/t5.jpg"/></a></li>
+											<li><a href="index.html"><img src="images/t5.jpg"/></a></li>
+											<li><a href="index.html"><img src="images/t5.jpg"/></a></li>-->
+											
+										</ul>
+									</div>
+								</div>
+									<!--<div class="skirt">
+										
+									</div>
+									<div class="pants">
+										
+									</div>
+									<div class="underwear">
+										
+									</div>
+									<div class="shoes">
+										
+									</div>
+									<div class="boyfriend">
+										
+									</div>
+									<div class="bag">
+										
+									</div>
+									<div class="sport">
+										
+									</div>
+									<div class="makeups">
+										
+									</div>
+									<div class="decoration">
+										
+									</div>
+									<div class="household">
+										
+									</div>
+									<div class="baby">
+										
+									</div>
+									<div class="food">
+										
+									</div>
+									<div class="merchandise">
+										
+									</div-->
+									</div>
+									
+									
+								<div class="nav_more_guess">
+									<h3>为你推荐</h3>
+									<p>根据你浏览购买记录专门推荐</p>
+									<ul>
+										<li>
+											<img src="images/t6.jpg">
+											<span>琪琪小衣橱夏季</span>
+											<i>￥49.00</i>
+										</li>
+										<li>
+											<img src="images/t6.jpg">
+											<span>琪琪小衣橱夏季</span>
+											<i>￥49.00</i>
+										</li>
+										<li>
+											<img src="images/t6.jpg">
+											<span>琪琪小衣橱夏季</span>
+											<i>￥49.00</i>
+										</li>
+										<li>
+											<img src="images/t6.jpg">
+											<span>琪琪小衣橱夏季</span>
+											<i>￥49.00</i>
+										</li>
+										<li>
+											<img src="images/t6.jpg">
+											<span>琪琪小衣橱夏季</span>
+											<i>￥49.00</i>
+										</li>
+										<li>
+											<img src="images/t6.jpg">
+											<span>琪琪小衣橱夏季</span>
+											<i>￥49.00</i>
+										</li>
+									</ul>
+								</div>
+							
+							</div>
+							
+						</div>
+					</div>
+					<!--导航结束-->
+							<div class="indexLeftLink fl" style="background: url(images/t3.png);">
+								<a class="cube-acm-node indexLeftTitle has-log-mod" href="javascript:;" target="_blank">主题市场</a>
+							</div>
+							<div class="indexRightLink fl">
+
+								<a class="indexmainLink cube-acm-node col666 fl has-log-mod" href="list.html" target="_blank">省钱团购</a>
+								<!-- <span class="indexmainPipe">|</span>  -->
+
+								<a class="indexmainLink cube-acm-node col666 fl has-log-mod" href="list.html" target="_blank">限时快抢</a>
+								<!-- <span class="indexmainPipe">|</span>  -->
+
+								<a class="indexmainLink indexmainLink-last cube-acm-node col666 fl has-log-mod" href="list.html" target="_blank">品质优选</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="MCUBE_MOD_ID_248606">
+					
+			<div class="wrap">
+				<div class="pc_banner_wrapper clearfix">
+					<!--导航-->
+					
+					
+					<!--轮播-->
+					<div class="banner">
+					<ul id="pic">
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+					<ol id="nav">
+						<li class="active">1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+						<li>6</li>
+						<li>7</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<!--用户信息-->
+		<div class="user_info">
+			<div class="user_t clearfix">
+				<h3></h3>
+				<p>
+					<span>菇凉好！</span>
+					<b>欢迎来到蘑菇街~</b>
+				</p>
+				<a href="index.html">会员中心</a>
+			</div>
+			<div class="user_b clearfix">
+				<h4>0.01抽好运</h4>
+				<p>每天一分钱</p>
+				<img src="images/t7.png">
+			</div>
+		</div>
+	</div>
+	<div id="main_top" class="clearfix wrap1">
+		<div class="top_l">
+			<a class="one" href="index.html">
+				<h3>限时快抢</h3>
+				<div id="demo">
+					
+				</div>
+				<img class="img1" src="images/a1.png"/>
+				<div class="mall">
+					<p>快抢价</p>
+					<p>39.90</p>
+				</div>
+				<div class="que">
+					
+				</div>
+			</a>
+			<div class="top_l_r">
+				<a class="two two1 clearfix" href="index.html">
+					<h3>限时快抢</h3>
+					<span>百余好货1元抢</span>
+					<img class="img2" src="images/s1.png" />
+				</a>
+				<a class="three three1 clearfix" href="index.html">
+					<h3>限时快抢</h3>
+					<span>百余好货1元抢</span>
+					<img class="img2" src="images/s2.png" />
+				</a>
+			</div>
+		</div>
+		<div class="top_c">
+			<a class="one" href="index.html">
+				<h3>限时快抢</h3>
+				<span>百余好货1元抢</span>
+				<img class="img1" src="images/a2.png" />
+			</a>
+			<div class="top_l_r">
+				<a class="two clearfix" href="index.html">
+					<h3>限时快抢</h3>
+					<span>百余好货1元抢</span>
+					<img class="img2" src="images/s3.png" />
+				</a>
+				<a class="three clearfix" href="index.html">
+					<h3>限时快抢</h3>
+					<span>百余好货1元抢</span>
+					<img class="img2" src="images/s4.png" />
+				</a>
+			</div>
+		</div>
+		<div class="top_r">
+			<a class="four clearfix" href="index.html">
+				<h3>限时快抢</h3>
+				<span>百余好货1元抢</span>
+				<img class="img1" src="images/a3.png" />
+			</a>
+		</div>
+	</div>
+	
+	<!--<div class="public wrap1">
+		<h3>红人穿搭</h3>
+		<span>查看全部 ></span>
+	</div>-->
+	
+	<div class="girl wrap1 clearfix">
+		<div class="pic clearfix">
+			<h3 class="hh">红人穿搭</h3>
+			<span class="sp">查看全部 ></span>
+		</div>
+		<div class="girl_l">
+			<ul>
+				<li>
+					<img src="images/g1.jpg" class="g1" />
+					<p class="p1">露肩小性感</p>
+   					<img src="images/g2.jpg" class="g2" />
+				</li>
+				<li>
+					<img src="images/g3.jpg" class="g1" />
+					<p class="p1">乖乖学院风</p>
+   					<img src="images/g4.jpg" class="g2" />
+				</li>
+				<li>
+					<img src="images/g5.jpg" class="g1" />
+					<p class="p1">夏日度假风</p>
+   					<img src="images/g6.jpg" class="g2" />
+				</li>
+				<li>
+					<img src="images/g7.jpg" class="g1" />
+					<p class="p1">吸睛度假装</p>
+   					<img src="images/g8.jpg" class="g2" />
+				</li>
+				<li>
+					<img src="images/g9.jpg" class="g1" />
+					<p class="p1">休闲又显瘦</p>
+   					<img src="images/g10.jpg" class="g2" />
+				</li>
+			</ul>
+		</div>
+		<div class="girl_r">
+			<a class="act" href="index.html">
+				<img src="images/g1.jpg">
+				<p>温柔气质</p>
+			</a>
+			<a class="act" href="index.html">
+				<img src="images/g6.jpg">
+				<p>显瘦A字群</p>
+			</a>
+			<a class="act" href="index.html">
+				<img src="images/g4.jpg">
+				<p>露肩小性感</p>
+			</a>
+			<a class="act" href="index.html">
+				<img src="images/g9.jpg">
+				<p>微露小性感</p>
+			</a>
+			<a class="act" href="index.html">
+				<img src="images/g11.jpg">
+				<p>显瘦字片人</p>
+			</a>
+			<a class="act" href="index.html">
+				<img src="images/g10.jpg">
+				<p>夏日必备短打</p>
+			</a>
+		</div>
+	</div>
+	
+	<div id="king" class="wrap1 clearfix">
+		<div class="pic clearfix">
+			<h3 class="hh">红人穿搭</h3>
+			<div class="cen clearfix">
+				<span>热门搜索 :</span>
+				<a href="index.html">一叶子满199减50</a>|
+				<a href="index.html">TFYBS推荐的自然堂</a>|
+				<a href="index.html">御泥坊2.5折抢面膜</a>|
+				<a href="index.html">女鞋89元2双</a>|
+				<a href="index.html">nike5折起领卷减50</a>
+			</div>
+			<span class="sp">查看全部 ></span>
+		</div>
+		<div class="king_l fl clearfix">
+			<div class="king_a_link">
+				<a href="index.html">夏日泳装</a>
+				<a href="index.html">帆布鞋</a>
+				<a href="index.html">今日王牌</a>
+				<a href="index.html">下棋预告</a>
+				<a href="index.html">雪纺姗</a>
+				<a href="index.html">锦轩爆款</a>
+			</div>
+			<div class="title">
+				品牌精选
+			</div>
+			<div class="xin">
+				潮牌尖货 初春换新
+			</div>
+			<div class="pic">
+				<img class="img1" src="images/short1.jpg" />
+			</div>
+		</div>
+		<div class="king_c fl clearfix">
+			<a href="#">
+				<h3>99元3件</h3>
+				<p>美妆 美衣任选</p>
+				<img class="img2" src="images/short2.jpg" />
+			</a>
+			<a href="#">
+				<h3>99元3件</h3>
+				<p>美妆 美衣任选</p>
+				<img class="img2" src="images/short3.jpg" />
+			</a>
+			<a href="#">
+				<h3>99元3件</h3>
+				<p>美妆 美衣任选</p>
+				<img class="img2" src="images/short4.jpg" />
+			</a>
+			<a href="#">
+				<h3>99元3件</h3>
+				<p>美妆 美衣任选</p>
+				<img class="img2" src="images/short5.jpg" />
+			</a>
+			<a href="#">
+				<h3>99元3件</h3>
+				<p>美妆 美衣任选</p>
+				<img class="img2" src="images/short6.jpg" />
+			</a>
+			<a href="#">
+				<h3>99元3件</h3>
+				<p>美妆 美衣任选</p>
+				<img class="img2" src="images/short2.jpg" />
+			</a>
+		</div>
+		<div class="king_r fl clearfix">
+			<a href="javascript:;">
+				<img src="images/aa1.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa2.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa3.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa4.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa5.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa6.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa7.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa8.jpg" />
+			</a>
+		</div>
+	</div>
+	
+	
+	<div id="king1" class="wrap1 clearfix">
+		<div class="pic clearfix">
+			<h3 class="hh">每日精选</h3>
+			<div class="cen clearfix">
+				<span>热门搜索 :</span>
+				<a href="index.html">植美村全场2折</a>|
+				<a href="index.html">自然堂199减50</a>|
+				<a href="index.html">回力折上折</a>|
+				<a href="index.html">金稻补水仪99减</a>|
+
+			</div>
+			<span class="sp">查看全部 ></span>
+		</div>
+		<div class="king_l fl clearfix">
+			<div class="king_a_link">
+				<a href="index.html">衬衫</a>
+				<a href="index.html">牛仔裤</a>
+				<a href="index.html">T恤</a>
+				<a href="index.html">连衣裙</a>
+				<a href="index.html">雪纺姗</a>
+				<a href="index.html">防晒衫</a>
+			</div>
+			<div class="title">
+				精选美妆
+			</div>
+			<div class="xin">
+				最热门美妆单品戳
+			</div>
+			<div class="pic">
+				<img class="img1" src="images/short2.png" />
+			</div>
+		</div>
+		<div id="kin" class="king_c fl clearfix">
+			
+		</div>
+		<div class="king_r fl clearfix">
+			<a href="javascript:;">
+				<img src="images/xin.jpg" />
+			</a>
+			
+		</div>
+	</div>
+	
+	<!--华丽的分割点  2-->
+	<div id="king2" class="wrap1 clearfix">
+		<div class="pic clearfix">
+			<h3 class="hh">女装</h3>
+			<div class="cen clearfix">
+				<span>热门搜索 :</span>
+				<a href="index.html">植美村全场2折</a>|
+				<a href="index.html">自然堂199减50</a>|
+				<a href="index.html">回力折上折</a>|
+				<a href="index.html">金稻补水仪99减</a>|
+
+			</div>
+			<span class="sp">查看全部 ></span>
+		</div>
+		<div class="king_l fl clearfix">
+			<div class="king_a_link">
+				<a href="index.html">衬衫</a>
+				<a href="index.html">牛仔裤</a>
+				<a href="index.html">T恤</a>
+				<a href="index.html">连衣裙</a>
+				<a href="index.html">雪纺姗</a>
+				<a href="index.html">防晒衫</a>
+			</div>
+			<div class="title">
+				潮流女装
+			</div>
+			<div class="xin">
+				最热门美妆单品戳
+			</div>
+			<div class="pic">
+				<img class="img1" src="images/z2.png" />
+			</div>
+		</div>
+		<div id="kin1" class="king_c fl clearfix">
+			
+		</div>
+		<div class="king_r fl clearfix">
+			<a href="javascript:;">
+				<img src="images/aa1.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa2.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa3.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa4.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa5.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa6.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa7.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa8.jpg" />
+			</a>
+			
+		</div>
+	</div>
+	
+	<!--华丽的分割点 3-->
+	<div id="king3" class="wrap1 clearfix">
+		<div class="pic clearfix">
+			<h3 class="hh">女鞋</h3>
+			<div class="cen clearfix">
+				<span>热门搜索 :</span>
+				<a href="index.html">植美村全场2折</a>|
+				<a href="index.html">自然堂199减50</a>|
+				<a href="index.html">回力折上折</a>|
+				<a href="index.html">金稻补水仪99减</a>|
+
+			</div>
+			<span class="sp">查看全部 ></span>
+		</div>
+		<div class="king_l fl clearfix">
+			<div class="king_a_link">
+				<a href="index.html">衬衫</a>
+				<a href="index.html">牛仔裤</a>
+				<a href="index.html">T恤</a>
+				<a href="index.html">连衣裙</a>
+				<a href="index.html">雪纺姗</a>
+				<a href="index.html">防晒衫</a>
+			</div>
+			<div class="title">
+				百搭鞋柜
+			</div>
+			<div class="xin">
+				最热门美妆单品戳
+			</div>
+			<div class="pic">
+				<img class="img1" src="images/x10.png" />
+			</div>
+		</div>
+		<div id="kin2" class="king_c fl clearfix">
+			
+		</div>
+		<div class="king_r fl clearfix">
+			<a href="javascript:;">
+				<img src="images/aa1.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa2.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa3.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa4.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa5.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa6.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa7.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa8.jpg" />
+			</a>
+			
+		</div>
+	</div>
+	
+	<!--华丽的分割点 4-->
+	<div id="king4" class="wrap1 clearfix">
+		<div class="pic clearfix">
+			<h3 class="hh">包包</h3>
+			<div class="cen clearfix">
+				<span>热门搜索 :</span>
+				<a href="index.html">植美村全场2折</a>|
+				<a href="index.html">自然堂199减50</a>|
+				<a href="index.html">回力折上折</a>|
+				<a href="index.html">金稻补水仪99减</a>|
+
+			</div>
+			<span class="sp">查看全部 ></span>
+		</div>
+		<div class="king_l fl clearfix">
+			<div class="king_a_link">
+				<a href="index.html">衬衫</a>
+				<a href="index.html">牛仔裤</a>
+				<a href="index.html">T恤</a>
+				<a href="index.html">连衣裙</a>
+				<a href="index.html">雪纺姗</a>
+				<a href="index.html">防晒衫</a>
+			</div>
+			<div class="title">
+				点睛美包
+			</div>
+			<div class="xin">
+				最热门美妆单品戳
+			</div>
+			<div class="pic">
+				<img class="img1" src="images/zhu1.png" />
+			</div>
+		</div>
+		<div id="kin3" class="king_c fl clearfix">
+			
+		</div>
+		<div class="king_r fl clearfix">
+			<a href="javascript:;">
+				<img src="images/aa1.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa2.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa3.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa4.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa5.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa6.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa7.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa8.jpg" />
+			</a>
+			
+		</div>
+	</div>
+	<!--华丽的分割点 5-->
+	<div id="king5" class="wrap1 clearfix">
+		<div class="pic clearfix">
+			<h3 class="hh">配饰</h3>
+			<div class="cen clearfix">
+				<span>热门搜索 :</span>
+				<a href="index.html">植美村全场2折</a>|
+				<a href="index.html">自然堂199减50</a>|
+				<a href="index.html">回力折上折</a>|
+				<a href="index.html">金稻补水仪99减</a>|
+
+			</div>
+			<span class="sp">查看全部 ></span>
+		</div>
+		<div class="king_l fl clearfix">
+			<div class="king_a_link">
+				<a href="index.html">衬衫</a>
+				<a href="index.html">牛仔裤</a>
+				<a href="index.html">T恤</a>
+				<a href="index.html">连衣裙</a>
+				<a href="index.html">雪纺姗</a>
+				<a href="index.html">防晒衫</a>
+			</div>
+			<div class="title">
+				度假草帽
+			</div>
+			<div class="xin">
+				最热门美妆单品戳
+			</div>
+			<div class="pic">
+				<img class="img1" src="images/zhu3.png" />
+			</div>
+		</div>
+		<div id="kin4" class="king_c fl clearfix">
+			
+		</div>
+		<div class="king_r fl clearfix">
+			<a href="javascript:;">
+				<img src="images/aa1.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa2.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa3.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa4.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa5.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa6.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa7.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa8.jpg" />
+			</a>
+			
+		</div>
+	</div>
+	<!--华丽的分割点 6-->
+	<div id="king6" class="wrap1 clearfix">
+		<div class="pic clearfix">
+			<h3 class="hh">运动</h3>
+			<div class="cen clearfix">
+				<span>热门搜索 :</span>
+				<a href="index.html">植美村全场2折</a>|
+				<a href="index.html">自然堂199减50</a>|
+				<a href="index.html">回力折上折</a>|
+				<a href="index.html">金稻补水仪99减</a>|
+
+			</div>
+			<span class="sp">查看全部 ></span>
+		</div>
+		<div class="king_l fl clearfix">
+			<div class="king_a_link">
+				<a href="index.html">衬衫</a>
+				<a href="index.html">牛仔裤</a>
+				<a href="index.html">T恤</a>
+				<a href="index.html">连衣裙</a>
+				<a href="index.html">雪纺姗</a>
+				<a href="index.html">防晒衫</a>
+			</div>
+			<div class="title">
+				品牌精选
+			</div>
+			<div class="xin">
+				最热门美妆单品戳
+			</div>
+			<div class="pic">
+				<img class="img1" src="images/xx6.png" />
+			</div>
+		</div>
+		<div id="kin5" class="king_c fl clearfix">
+			
+		</div>
+		<div class="king_r fl clearfix">
+			<a href="javascript:;">
+				<img src="images/aa1.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa2.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa3.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa4.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa5.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa6.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa7.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa8.jpg" />
+			</a>
+			
+		</div>
+	</div>
+	<!--华丽的分割点 7-->
+	<div id="king7" class="wrap1 clearfix">
+		<div class="pic clearfix">
+			<h3 class="hh">蘑菇优选</h3>
+			<div class="cen clearfix">
+				<span>热门搜索 :</span>
+				<a href="index.html">植美村全场2折</a>|
+				<a href="index.html">自然堂199减50</a>|
+				<a href="index.html">回力折上折</a>|
+				<a href="index.html">金稻补水仪99减</a>|
+
+			</div>
+			<span class="sp">查看全部 ></span>
+		</div>
+		<div class="king_l fl clearfix">
+			<div class="king_a_link">
+				<a href="index.html">衬衫</a>
+				<a href="index.html">牛仔裤</a>
+				<a href="index.html">T恤</a>
+				<a href="index.html">连衣裙</a>
+				<a href="index.html">雪纺姗</a>
+				<a href="index.html">防晒衫</a>
+			</div>
+			<div class="title">
+				精选美妆
+			</div>
+			<div class="xin">
+				最热门美妆单品戳
+			</div>
+			<div class="pic">
+				<img class="img1" src="images/zhu3.png" />
+			</div>
+		</div>
+		<div id="kin6" class="king_c fl clearfix">
+			
+		</div>
+		<div class="king_r fl clearfix">
+			<a href="javascript:;">
+				<img src="images/aa1.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa2.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa3.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa4.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa5.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa6.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa7.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa8.jpg" />
+			</a>
+			
+		</div>
+	</div>
+	<!--华丽的分割点 8-->
+	<div id="king8" class="wrap1 clearfix">
+		<div class="pic clearfix">
+			<h3 class="hh">家居&食品</h3>
+			<div class="cen clearfix">
+				<span>热门搜索 :</span>
+				<a href="index.html">植美村全场2折</a>|
+				<a href="index.html">自然堂199减50</a>|
+				<a href="index.html">回力折上折</a>|
+				<a href="index.html">金稻补水仪99减</a>|
+
+			</div>
+			<span class="sp">查看全部 ></span>
+		</div>
+		<div class="king_l fl clearfix">
+			<div class="king_a_link">
+				<a href="index.html">衬衫</a>
+				<a href="index.html">牛仔裤</a>
+				<a href="index.html">T恤</a>
+				<a href="index.html">连衣裙</a>
+				<a href="index.html">雪纺姗</a>
+				<a href="index.html">防晒衫</a>
+			</div>
+			<div class="title">
+				精选美妆
+			</div>
+			<div class="xin">
+				最热门美妆单品戳
+			</div>
+			<div class="pic">
+				<img class="img1" src="images/short2.png" />
+			</div>
+		</div>
+		<div id="kin7" class="king_c fl clearfix">
+			
+		</div>
+		<div class="king_r fl clearfix">
+			<a href="javascript:;">
+				<img src="images/aa1.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa2.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa3.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa4.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa5.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa6.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa7.jpg" />
+			</a>
+			<a href="javascript:;">
+				<img src="images/aa8.jpg" />
+			</a>
+			
+		</div>
+	</div>
+	
+	<div id="content" class="wrap1 clearfix">
+			<div class="pic clearfix">
+				<h3 class="hh">精选专题</h3>
+				<div class="cen clearfix">
+			
+				</div>	
+			</div>
+		<div class="conl fl">
+			
+			<div class="banner" id="ban1">
+					<ul id="pid">
+						<li><img src="images/banner1.jpg" /></li>
+						<li><img src="images/banner2.jpg" /></li>
+						<li><img src="images/banner3.jpg" /></li>
+						<li><img src="images/banner4.jpg" /></li>
+						<li><img src="images/banner5.jpg" /></li>
+						<li><img src="images/banner6.jpg" /></li>
+						<li><img src="images/banner7.jpg" /></li>
+					</ul>
+					<!--<ol id="nab">
+						<li class="act">1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+						<li>6</li>
+						<li>7</li>
+					</ol>-->
+					<div class="btnne left">
+						&lt;
+					</div>
+					<div class="btnne right">
+						&gt;
+					</div>
+				</div>
+		</div>
+		<div class="conr fl">
+			<h3 class="h3">流行元素</h3>
+			<div class="a_linka">
+				<a href="javascript:;">
+					<img src="images/tt1.jpg" />
+					<p>清爽无袖</p>
+				</a>
+				<a href="javascript:;">
+					<img src="images/tt2.jpg" />
+					<p>清爽无袖</p>
+				</a>
+				<a href="javascript:;">
+					<img src="images/tt3.jpg" />
+					<p>清爽无袖</p>
+				</a>
+				<a href="javascript:;">
+					<img src="images/tt4.jpg" />
+					<p>清爽无袖</p>
+				</a>
+				<a href="javascript:;">
+					<img src="images/tt5.jpg" />
+					<p>清爽无袖</p>
+				</a>
+				<a href="javascript:;">
+					<img src="images/tt6.jpg" />
+					<p>清爽无袖</p>
+				</a>
+			</div>
+		</div>
+	</div>
+	
+	<div id="love" class="wrap1">
+			<div class="pic clearfix">
+				<h3 class="hh">猜你喜欢</h3>
+				<div class="cen clearfix">
+			
+				</div>	
+			</div>
+			<ul class="lovecon clear" id="lovecon">
+				<!--<li class="lover fl">
+					<img src="images/m1.jpg" />
+					<p>夏季新款甜美圆领气质宽松喇叭纯棉修身运动短裤韩版夏天裤装</p>
+					<div class="mit">
+						<b>￥88.0</b>
+						<s>￥188.88</s>
+						<span>8888</span>
+					</div>
+					<i>找相似</i>
+				</li>-->
+			</ul>
+	</div>
+	
+	<div id="foot">
+			<div class="wrap1">
+				<div class="foot_t clearfix">
+					<div class="foot_t_h fl tom">
+						<h4>-新手帮助-</h4>
+						<div class="a_link">
+							<a href="javascript:;">常见问题</a>
+							<a href="javascript:;">自助服务</a>
+							<a href="javascript:;">联系客服</a>
+							<a href="javascript:;">意见反馈</a>
+						</div>
+					</div>
+					<div class="foot_t_he fl tom">
+						<h4>-权益保障-</h4>
+						<div class="a_link">
+							<a href="javascript:;">全国包邮</a>
+							<a href="javascript:;">7天无理由退</a>
+							<a href="javascript:;">退货运费补贴</a>
+							<a href="javascript:;">限时发货</a>
+						</div>
+					</div>
+					<div class="foot_t_hel fl tom">
+						<h4>-支付方式-</h4>
+						<div class="a_link">
+							<a href="javascript:;">微信支付</a>
+							<a href="javascript:;">支付宝</a>
+							<a href="javascript:;">白付没支付</a>
+							
+						</div>
+					</div>
+					<div class="foot_t_help fl tom">
+						<h4>-移动客服端下载-</h4>
+						<div class="a_links">
+							<a href="javascript:;">蘑菇街</a>
+							<a href="javascript:;">美丽说</a>
+							<a href="javascript:;">uns引力</a>
+						</div>
+					</div>
+				</div>
+			<div class="foot_b">
+				<p class="p1">
+					<a href="javascript:;">关于我们</a>
+					<a href="javascript:;">招聘信息</a>
+					<a href="javascript:;">联系我们</a>
+					<a href="javascript:;">商家入住</a>
+					<a href="javascript:;">商家后台</a>
+					<a href="javascript:;">蘑菇商学员</a>
+					<a href="javascript:;">商家社区</a>
+					<a href="javascript:;">&copy;2017 Mogujie.com 杭州卷瓜网络有限公司</a>
+				</p>
+				<p class="p2">
+					<a href="javascript:;">营业执照注册号：330106000129004</a>|
+					<a href="javascript:;">网络文化经营许可证：浙网文（2016）0349-219号</a>|
+					<a href="javascript:;">增值电信业务经营许可证：浙B2-20110349</a>|
+					<a href="javascript:;">安全责任书</a>|
+					<a href="javascript:;">浙公网安备 33010602002329号</a>|
+
+				</p>
+			</div>
+			</div>
+			
+		</div>
+	</body>
+
+</html>

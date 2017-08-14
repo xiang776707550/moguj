@@ -1,0 +1,739 @@
+[
+	{
+		"title": "上衣",
+		"link":"#",
+		"subNavLists": [
+			{
+				"subNavTit": "当季热卖",
+				"subNavList": [
+					"精致套装",
+					"雪纺姗",
+					"T雪",
+					"衬衫",
+					"印花T雪",
+					"背心吊带",
+					"长款防晒衫",
+					"雪纺背心"
+				]
+			}, {
+				"subNavTit": "流行新品",
+				"subNavList": [
+					"新人专享9.9包邮",
+					"薄外套",
+					"夏季新品",
+					"短袖T雪",
+					"防晒衫",
+					"短袖雪衫",
+					"薄开衫",
+					"蕾丝衫",
+					"露脐T恤"
+				]
+			}, {
+				"subNavTit": "潮流时尚",
+				"subNavList": [
+					"性感V领",
+					"喇叭袖",
+					"刺绣",
+					"俏皮露肩",
+					"绑带衬衫",
+					"条纹控",
+					"白衬衫",
+					"印花T恤",
+					"印花背心"
+				]
+			}, {
+				"subNavTit": "品牌推荐",
+				"subNavList": [
+					"images/alink.jpg",
+					"images/alink.jpg",
+					"images/alink.jpg",
+					"images/alink.jpg",
+					"images/alink.jpg"
+				]
+			}
+		],
+		"rImg": [
+			"images/t6.jpg",
+			"images/t6.jpg",
+			"images/t6.jpg",
+			"images/t6.jpg",
+			"images/t6.jpg",
+			"images/t6.jpg"
+		],
+		"smallTit": [
+			"夏季新款女装纯",
+			"夏季2017新款",
+			"小清新棉麻背心",
+			"连衣裙女夏2017",
+			"温泉泳装女时尚",
+			"新款纯色细绳棉"
+		],
+		"price": [
+			"￥:49.00",
+			"￥:39.00",
+			"￥:77.00",
+			"￥:88.00",
+			"￥:66.00",
+			"￥:68.00"
+		]
+	}, {
+		"title": "裙子",
+		"subNavLists": [
+			{
+				"subNavTit": "当季热卖",
+				"subNavList": [
+					"夏上新",
+					"精致连衣裙",
+					"美裙套装",
+					"半身裙",
+					"卫衣裙"
+				]
+			}, {
+				"subNavTit": "流行精选",
+				"subNavList": [
+					"背心裙",
+					"新人专享9.9包邮",
+					"蕾丝裙",
+					"收腰裙",
+					"高腰裙",
+					"皮群",
+					"牛仔半身裙",
+					"包臀裙"
+				]
+			}, {
+				"subNavTit": "经典必备",
+				"subNavList": [
+					"鱼尾裙",
+					"背带裙",
+					"半身长裙",
+					"小黑裙",
+					"小白裙",
+					"A字群",
+					"百皱裙",
+					"雪纺裙"
+				]
+			}, {
+				"subNavTit": "品牌推荐",
+				"subNavList": [
+					"images/aa4.jpg",
+					"images/aa4.jpg",
+					"images/aa4.jpg",
+					"images/aa4.jpg",
+					"images/aa4.jpg"
+				]
+			}
+		]
+	},{
+		"title": "裤子",
+		"subNavLists": [
+			{
+				"subNavTit": "当季热卖",
+				"subNavList": [
+					"短裤",
+					"牛仔裤",
+					"小脚裤",
+					"阔腿裤",
+					"休闲裤",
+					"背带裤",
+					"九分裤",
+					"打底裤"
+				]
+			}, {
+				"subNavTit": "流行新品",
+				"subNavList": [
+					"新人专享9.9包邮",
+					"短裤",
+					"牛仔裤",
+					"小脚裤",
+					"阔腿裤",
+					"休闲裤",
+					"背带裤",
+					"九分裤",
+					"打底裤"
+				]
+			}, {
+				"subNavTit": "潮流时尚",
+				"subNavList": [
+					"短裤",
+					"牛仔裤",
+					"小脚裤",
+					"阔腿裤",
+					"休闲裤",
+					"背带裤",
+					"九分裤",
+					"打底裤"
+				]
+			}, {
+				"subNavTit": "品牌推荐",
+				"subNavList": [
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg"
+				]
+			}
+		]
+	},{
+		"title": "女鞋",
+		"subNavLists": [
+			{
+				"subNavTit": "人气热销",
+				"subNavList": [
+					"单鞋",
+					"小白鞋",
+					"夏清仓",
+					"凉鞋",
+					"拖鞋",
+					"高跟鞋",
+					"帆布鞋",
+					"运动鞋",
+					"厚底鞋",
+					"人气新品",
+					"平底鞋",
+					"绑带鞋",
+					"大方扣"
+				]
+			}, {
+				"subNavTit": "热门推荐",
+				"subNavList": [
+					"新人专享9.9包邮",
+					"单鞋",
+					"小白鞋",
+					"夏清仓",
+					"凉鞋",
+					"拖鞋",
+					"高跟鞋",
+					"帆布鞋",
+					"运动鞋",
+					"厚底鞋",
+					"人气新品",
+					"平底鞋",
+					"绑带鞋",
+					"大方扣"
+				]
+			}, {
+				"subNavTit": "经典直击",
+				"subNavList": [
+					"单鞋",
+					"小白鞋",
+					"夏清仓",
+					"凉鞋",
+					"拖鞋",
+					"高跟鞋",
+					"帆布鞋",
+					"运动鞋",
+					"厚底鞋",
+					"人气新品",
+					"平底鞋",
+					"绑带鞋",
+					"大方扣"
+				]
+			}, {
+				"subNavTit": "品牌推荐",
+				"subNavList": [
+					"images/aa2.jpg",
+					"images/aa2.jpg",
+					"images/aa2.jpg",
+					"images/aa2.jpg",
+					"images/aa2.jpg"
+				]
+			}
+		]
+	},{
+		"title": "男友",
+		"subNavLists": [
+			{
+				"subNavTit": "当季热卖",
+				"subNavList": [
+					"牛仔裤",
+					"5分短裤",
+					"衬衫",
+					"休闲鞋",
+					"休闲裤",
+					"凉拖鞋",
+					"时尚套装",
+					"贴身内裤",
+					"男袜"
+				]
+			}, {
+				"subNavTit": "人气单品",
+				"subNavList": [
+					"牛仔裤",
+					"5分短裤",
+					"衬衫",
+					"休闲鞋",
+					"休闲裤",
+					"凉拖鞋",
+					"时尚套装",
+					"贴身内裤",
+					"男袜",
+					"新人专享9.9包邮"		
+				]
+			}, {
+				"subNavTit": "潮流元素",
+				"subNavList": [
+					"牛仔裤",
+					"5分短裤",
+					"衬衫",
+					"休闲鞋",
+					"休闲裤",
+					"凉拖鞋",
+					"时尚套装",
+					"贴身内裤",
+					"男袜"
+				]
+			}, {
+				"subNavTit": "品牌推荐",
+				"subNavList": [
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg"
+				]
+			}
+		]
+	},{
+		"title": "内衣",
+		"subNavLists": [
+			{
+				"subNavTit": "内衣",
+				"subNavList": [
+					"夏上新",
+					"精致连衣裙",
+					"美裙套装",
+					"半身裙",
+					"卫衣裙",
+					"背心吊带",
+					"长款防晒衫",
+					"雪纺背心"
+				]
+			}, {
+				"subNavTit": "家居睡衣",
+				"subNavList": [
+					"新人专享9.9包邮",
+					"薄外套",
+					"夏季新品",
+					"短袖T雪",
+					"防晒衫",
+					"短袖雪衫",
+					"薄开衫"
+				]
+			}, {
+				"subNavTit": "袜子",
+				"subNavList": [
+					"精致套装",
+					"雪纺姗",
+					"T雪",
+					"衬衫",
+					"印花T雪",
+					"背心吊带",
+					"长款防晒衫",
+					"雪纺背心"
+				]
+			}, {
+				"subNavTit": "品牌推荐",
+				"subNavList": [
+					"images/aa3.jpg",
+					"images/aa3.jpg",
+					"images/aa3.jpg",
+					"images/aa3.jpg",
+					"images/aa3.jpg"
+				]
+			}
+		]
+	},{
+		"title": "包包",
+		"subNavLists": [
+			{
+				"subNavTit": "热门",
+				"subNavList": [
+					"夏上新",
+					"精致连衣裙",
+					"美裙套装",
+					"半身裙",
+					"卫衣裙",
+					"背心吊带",
+					"长款防晒衫",
+					"雪纺背心"
+				]
+			}, {
+				"subNavTit": "款式",
+				"subNavList": [
+					"新人专享9.9包邮",
+					"薄外套",
+					"夏季新品",
+					"短袖T雪",
+					"防晒衫",
+					"短袖雪衫",
+					"薄开衫"
+				]
+			}, {
+				"subNavTit": "流行",
+				"subNavList": [
+					"精致套装",
+					"雪纺姗",
+					"T雪",
+					"衬衫",
+					"印花T雪",
+					"背心吊带",
+					"长款防晒衫",
+					"雪纺背心"
+				]
+			}, {
+				"subNavTit": "品牌推荐",
+				"subNavList": [
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg"
+				]
+			}
+		]
+	},{
+		"title": "运动",
+		"subNavLists": [
+			{
+				"subNavTit": "人气精选",
+				"subNavList": [
+					"夏上新",
+					"精致连衣裙",
+					"美裙套装",
+					"半身裙",
+					"卫衣裙",
+					"背心吊带",
+					"长款防晒衫",
+					"雪纺背心"
+				]
+			}, {
+				"subNavTit": "火爆热卖",
+				"subNavList": [
+					"新人专享9.9包邮",
+					"薄外套",
+					"夏季新品",
+					"短袖T雪",
+					"防晒衫",
+					"短袖雪衫",
+					"薄开衫"
+				]
+			}, {
+				"subNavTit": "品牌专柜",
+				"subNavList": [
+					"精致套装",
+					"雪纺姗",
+					"T雪",
+					"衬衫",
+					"印花T雪",
+					"背心吊带",
+					"长款防晒衫",
+					"雪纺背心"
+				]
+			}, {
+				"subNavTit": "品牌推荐",
+				"subNavList": [
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg"
+				]
+			}
+		]
+	},{
+		"title": "美妆",
+		"subNavLists": [
+			{
+				"subNavTit": "当季热卖",
+				"subNavList": [
+					"夏上新",
+					"精致连衣裙",
+					"美裙套装",
+					"半身裙",
+					"卫衣裙",
+					"背心吊带",
+					"长款防晒衫",
+					"雪纺背心"
+				]
+			}, {
+				"subNavTit": "流行新品",
+				"subNavList": [
+					"新人专享9.9包邮",
+					"薄外套",
+					"夏季新品",
+					"短袖T雪",
+					"防晒衫",
+					"短袖雪衫",
+					"薄开衫"
+				]
+			}, {
+				"subNavTit": "潮流时尚",
+				"subNavList": [
+					"精致套装",
+					"雪纺姗",
+					"T雪",
+					"衬衫",
+					"印花T雪",
+					"背心吊带",
+					"长款防晒衫",
+					"雪纺背心"
+				]
+			}, {
+				"subNavTit": "品牌推荐",
+				"subNavList": [
+					"images/aa2.jpg",
+					"images/aa2.jpg",
+					"images/aa2.jpg",
+					"images/aa2.jpg",
+					"images/aa2.jpg"
+				]
+			}
+		]
+	},{
+		"title": "配饰",
+		"subNavLists": [
+			{
+				"subNavTit": "当季热卖",
+				"subNavList": [
+					"夏上新",
+					"精致连衣裙",
+					"美裙套装",
+					"半身裙",
+					"卫衣裙",
+					"背心吊带",
+					"长款防晒衫",
+					"雪纺背心"
+				]
+			}, {
+				"subNavTit": "流行新品",
+				"subNavList": [
+					"新人专享9.9包邮",
+					"薄外套",
+					"夏季新品",
+					"短袖T雪",
+					"防晒衫",
+					"短袖雪衫",
+					"薄开衫"
+				]
+			}, {
+				"subNavTit": "潮流时尚",
+				"subNavList": [
+					"精致套装",
+					"雪纺姗",
+					"T雪",
+					"衬衫",
+					"印花T雪",
+					"背心吊带",
+					"长款防晒衫",
+					"雪纺背心"
+				]
+			}, {
+				"subNavTit": "品牌推荐",
+				"subNavList": [
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg"
+				]
+			}
+		]
+	},{
+		"title": "家居",
+		"subNavLists": [
+			{
+				"subNavTit": "当季热卖",
+				"subNavList": [
+					"夏上新",
+					"精致连衣裙",
+					"美裙套装",
+					"半身裙",
+					"卫衣裙",
+					"背心吊带",
+					"长款防晒衫",
+					"雪纺背心"
+				]
+			}, {
+				"subNavTit": "流行新品",
+				"subNavList": [
+					"新人专享9.9包邮",
+					"薄外套",
+					"夏季新品",
+					"短袖T雪",
+					"防晒衫",
+					"短袖雪衫",
+					"薄开衫"
+				]
+			}, {
+				"subNavTit": "潮流时尚",
+				"subNavList": [
+					"精致套装",
+					"雪纺姗",
+					"T雪",
+					"衬衫",
+					"印花T雪",
+					"背心吊带",
+					"长款防晒衫",
+					"雪纺背心"
+				]
+			}, {
+				"subNavTit": "品牌推荐",
+				"subNavList": [
+					"images/aa4.jpg",
+					"images/aa4.jpg",
+					"images/aa4.jpg",
+					"images/aa4.jpg",
+					"images/aa4.jpg"
+				]
+			}
+		]
+	},{
+		"title": "母婴",
+		"subNavLists": [
+			{
+				"subNavTit": "当季热卖",
+				"subNavList": [
+					"夏上新",
+					"精致连衣裙",
+					"美裙套装",
+					"半身裙",
+					"卫衣裙",
+					"背心吊带",
+					"长款防晒衫",
+					"雪纺背心"
+				]
+			}, {
+				"subNavTit": "流行新品",
+				"subNavList": [
+					"新人专享9.9包邮",
+					"薄外套",
+					"夏季新品",
+					"短袖T雪",
+					"防晒衫",
+					"短袖雪衫",
+					"薄开衫"
+				]
+			}, {
+				"subNavTit": "潮流时尚",
+				"subNavList": [
+					"精致套装",
+					"雪纺姗",
+					"T雪",
+					"衬衫",
+					"印花T雪",
+					"背心吊带",
+					"长款防晒衫",
+					"雪纺背心"
+				]
+			}, {
+				"subNavTit": "品牌推荐",
+				"subNavList": [
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg"
+				]
+			}
+		]
+	},{
+		"title": "食品",
+		"subNavLists": [
+			{
+				"subNavTit": "当季热卖",
+				"subNavList": [
+					"夏上新",
+					"精致连衣裙",
+					"美裙套装",
+					"半身裙",
+					"卫衣裙",
+					"背心吊带",
+					"长款防晒衫",
+					"雪纺背心"
+				]
+			}, {
+				"subNavTit": "流行新品",
+				"subNavList": [
+					"新人专享9.9包邮",
+					"薄外套",
+					"夏季新品",
+					"短袖T雪",
+					"防晒衫",
+					"短袖雪衫",
+					"薄开衫"
+				]
+			}, {
+				"subNavTit": "潮流时尚",
+				"subNavList": [
+					"精致套装",
+					"雪纺姗",
+					"T雪",
+					"衬衫",
+					"印花T雪",
+					"背心吊带",
+					"长款防晒衫",
+					"雪纺背心"
+				]
+			}, {
+				"subNavTit": "品牌推荐",
+				"subNavList": [
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg"
+				]
+			}
+		]
+	},{
+		"title": "电器",
+		"subNavLists": [
+			{
+				"subNavTit": "当季热卖",
+				"subNavList": [
+					"夏上新",
+					"精致连衣裙",
+					"美裙套装",
+					"半身裙",
+					"卫衣裙",
+					"背心吊带",
+					"长款防晒衫",
+					"雪纺背心"
+				]
+			}, {
+				"subNavTit": "流行新品",
+				"subNavList": [
+					"新人专享9.9包邮",
+					"薄外套",
+					"夏季新品",
+					"短袖T雪",
+					"防晒衫",
+					"短袖雪衫",
+					"薄开衫"
+				]
+			}, {
+				"subNavTit": "潮流时尚",
+				"subNavList": [
+					"精致套装",
+					"雪纺姗",
+					"T雪",
+					"衬衫",
+					"印花T雪",
+					"背心吊带",
+					"长款防晒衫",
+					"雪纺背心"
+				]
+			}, {
+				"subNavTit": "品牌推荐",
+				"subNavList": [
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg",
+					"images/aa1.jpg"
+				]
+			}
+		]
+	}
+]

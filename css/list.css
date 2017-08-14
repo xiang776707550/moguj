@@ -1,0 +1,506 @@
+body {
+  background: #fff; }
+
+.header_mid {
+  border-bottom: 2px solid #f07; }
+
+#alls {
+  margin-top: 20px; }
+  #alls .all {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 300; }
+  #alls .allz {
+    border: 1px solid #f1f1f1;
+    background: #fafafa; }
+    #alls .allz h3 {
+      text-indent: 10px;
+      width: 90px;
+      height: 51px;
+      line-height: 50px;
+      background-color: #f3f3f3; }
+    #alls .allz .tee {
+      border: none; }
+    #alls .allz ul {
+      margin-left: 40px;
+      width: 1048px;
+      height: 50px;
+      border-bottom: 1px dashed #eee; }
+      #alls .allz ul li {
+        float: left;
+        line-height: 50px;
+        padding: 0 30px 0 0; }
+      #alls .allz ul span {
+        height: 50px;
+        line-height: 50px;
+        float: right; }
+
+#searchm {
+  margin-top: 15px;
+  height: 40px;
+  background: #fafafa;
+  border: 1px solid #f1f1f1;
+  line-height: 40px; }
+  #searchm h3 {
+    text-indent: 10px;
+    font-weight: 300;
+    color: #999; }
+  #searchm .searchm_r {
+    margin-left: 30px; }
+    #searchm .searchm_r a {
+      margin-right: 20px;
+      color: #666; }
+
+#price {
+  margin-bottom: 30px;
+  margin-top: 15px;
+  height: 40px;
+  border: 1px solid #e5e5e5; }
+  #price .price-l {
+    margin-top: 10px; }
+    #price .price-l a {
+      display: inline-block;
+      width: 65px;
+      height: 40px;
+      text-align: center;
+      color: #333; }
+  #price .price-c {
+    margin-top: 8px;
+    margin-left: 15px; }
+    #price .price-c input {
+      width: 50px;
+      height: 22px;
+      color: #999;
+      outline: 0; }
+    #price .price-c a {
+      margin-left: 10px;
+      text-align: center;
+      display: inline-block;
+      width: 50px;
+      height: 24px;
+      border: 1px solid #e5e5e5; }
+  #price .price-r {
+    margin-left: 20px;
+    margin-top: 8px;
+    font-size: 0; }
+    #price .price-r a {
+      font-size: 12px;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      line-height: 24px;
+      display: inline-block;
+      width: 80px;
+      height: 24px;
+      border: 1px solid #e5e5e5; }
+    #price .price-r .ab {
+      border: none; }
+
+#love .page {
+  width: 500px;
+  margin: 10px auto; }
+  #love .page .cur {
+    background: #f57;
+    color: #fff; }
+  #love .page a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #cecece; }
+    #love .page a:hover {
+      background: #f57;
+      color: #fff; }
+#love .lovecon .lover {
+  width: 220px;
+  height: 410px;
+  background: #fff;
+  margin: 0 22px 23px 0;
+  cursor: pointer;
+  border: 1px solid #f3f3f3;
+  position: relative; }
+  #love .lovecon .lover:nth-child(5n) {
+    margin-right: 0; }
+  #love .lovecon .lover:hover {
+    border: 1px solid #f07; }
+  #love .lovecon .lover:hover i {
+    display: block; }
+  #love .lovecon .lover i {
+    font-style: normal;
+    display: block;
+    width: 220px;
+    height: 24px;
+    background: #f07;
+    position: absolute;
+    bottom: 80px;
+    text-align: center;
+    line-height: 24px;
+    display: none; }
+  #love .lovecon .lover img {
+    display: block;
+    width: 220px;
+    height: 330px; }
+  #love .lovecon .lover p {
+    width: 202px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 10px; }
+  #love .lovecon .lover .mit {
+    margin-top: 10px;
+    width: 202px;
+    height: 25px;
+    margin: 0 auto; }
+    #love .lovecon .lover .mit s {
+      color: #666; }
+    #love .lovecon .lover .mit span {
+      color: #999;
+      margin-left: 45px;
+      padding-left: 20px;
+      background: url(../images/xinx.png) no-repeat;
+      background-size: 16px 15px; }
+
+#foot {
+  background-color: #f5f5f5;
+  height: 180px;
+  padding-top: 150px;
+  padding-bottom: 20px; }
+  #foot h4 {
+    margin-left: 30px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px; }
+  #foot .foot_t {
+    border-bottom: 1px solid #f07;
+    height: 100px; }
+    #foot .foot_t .tom {
+      width: 300px;
+      height: 100px; }
+    #foot .foot_t .a_link {
+      width: 200px; }
+      #foot .foot_t .a_link a {
+        display: inline-block;
+        width: 80px;
+        height: 20px;
+        line-height: 16px;
+        font-size: 12px;
+        color: #999; }
+    #foot .foot_t .a_links {
+      width: 200px; }
+      #foot .foot_t .a_links a {
+        display: inline-block;
+        width: 60px;
+        height: 20px;
+        line-height: 16px;
+        font-size: 12px;
+        color: #999; }
+  #foot .foot_b .p1 {
+    margin-top: 10px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px; }
+    #foot .foot_b .p1 a {
+      display: inline-block;
+      width: 80px;
+      height: 35px;
+      color: #666; }
+      #foot .foot_b .p1 a:last-child {
+        width: 300px;
+        color: #999; }
+  #foot .foot_b .p2 {
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px; }
+    #foot .foot_b .p2 a {
+      display: inline-block;
+      margin-right: 10px;
+      color: #999; }
+
+#shopcart {
+  width: 494px;
+  height: 66px;
+  background: url(../images/shop.png) repeat-x center left;
+  margin: 5px 0 0 690px;
+  position: relative; }
+  #shopcart i {
+    color: #fff; }
+  #shopcart .i1 {
+    position: absolute;
+    top: 22px;
+    left: 8px;
+    z-index: 8; }
+  #shopcart .i2 {
+    position: absolute;
+    top: 22px;
+    left: 165px;
+    z-index: 8; }
+  #shopcart .i3 {
+    position: absolute;
+    top: 22px;
+    left: 321px;
+    z-index: 8; }
+  #shopcart .i4 {
+    display: block;
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    z-index: 8;
+    top: 22px;
+    left: 471px;
+    background: url(../images/right.png) no-repeat; }
+  #shopcart p {
+    position: absolute;
+    top: 22px;
+    left: 0;
+    width: 90px;
+    height: 23px;
+    background: url(../images/rig.png) no-repeat; }
+
+.header_mid {
+  background: #F1F1F1; }
+  .header_mid .process {
+    position: absolute;
+    margin-top: 20px;
+    bottom: -2px;
+    left: 660px; }
+    .header_mid .process span {
+      color: #999;
+      cursor: pointer;
+      display: inline-block;
+      width: 100px;
+      height: 20px;
+      margin-right: 50px;
+      text-align: center; }
+      .header_mid .process span:nth-child(1) {
+        color: #f07;
+        text-indent: -12px; }
+    .header_mid .process .lastb {
+      margin-right: 0;
+      width: 60px;
+      text-align: right; }
+
+#shopping .shop_h {
+  margin-top: 35px;
+  height: 38px; }
+  #shopping .shop_h li {
+    height: 35px;
+    float: left;
+    font-size: 18px;
+    margin-right: 70px;
+    color: #333;
+    cursor: pointer; }
+  #shopping .shop_h .colo {
+    color: #f07;
+    border-bottom: 3px solid #f07; }
+#shopping .shop_nav {
+  height: 50px;
+  background: #f1f1f1;
+  border: 1px solid #eee; }
+  #shopping .shop_nav span {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 50px; }
+    #shopping .shop_nav span:first-child {
+      padding-left: 25px; }
+    #shopping .shop_nav span:nth-child(2) {
+      margin-left: 340px; }
+    #shopping .shop_nav span:last-child {
+      padding-right: 0; }
+#shopping .shop_pri {
+  padding: 20px 0; }
+  #shopping .shop_pri .inpt {
+    margin-left: 25px; }
+    #shopping .shop_pri .inpt i {
+      color: #222;
+      margin-left: 5px; }
+  #shopping .shop_pri .xinxi {
+    margin-left: 10px; }
+    #shopping .shop_pri .xinxi i {
+      display: inline-block;
+      width: 4px;
+      height: 4px;
+      border-radius: 100%;
+      background: #f07;
+      margin-right:5px;
+      vertical-align: middle; }
+    #shopping .shop_pri .xinxi img {
+      margin-right: 8px;
+      vertical-align: middle; }
+  #shopping .shop_pri .coupon {
+    margin-left: 15px;
+    line-height: 24px;
+    text-indent: 8px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 64px;
+    height: 24px;
+    border: 1px solid #f07;
+    border-radius: 5px;
+    position: relative;
+    color: #f07;
+    cursor: pointer; }
+    #shopping .shop_pri .coupon i {
+      position: absolute;
+      top: -2px;
+      right: 8px; }
+  #shopping .shop_pri .go {
+    margin-left: 10px; }
+#shopping .details {
+  height: 110px;
+  border: 1px solid #cecece; }
+  #shopping .details p {
+    height: 20px; }
+  #shopping .details span {
+    display: inline-block;
+    vertical-align: top; }
+  #shopping .details .inpt {
+    margin: 15px 0 0 25px;
+    vertical-align: top; }
+  #shopping .details .deta {
+    margin: 15px 0 0 30px; }
+    #shopping .details .deta .im1 {
+      cursor: pointer;
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+      border: 1px solid #cecece; }
+    #shopping .details .deta a {
+    	width:307px;
+    	display: inline-block;
+      margin-left: 5px;
+      vertical-align: top; }
+      #shopping .details .deta a:hover {
+        text-decoration: underline; }
+  #shopping .details .deta2 {
+    margin: 15px 0 0 40px;
+    vertical-align: top; }
+    #shopping .details .deta2 s {
+      color: #999; }
+    #shopping .details .deta2 .p3 {
+      color: #f07; }
+    #shopping .details .deta2 .p4 {
+      color: #f07; }
+  #shopping .details .de1 {
+    margin-left: 91px; }
+  #shopping .details .de2 {
+    margin-left: 15px; }
+    #shopping .details .de2 .num {
+      margin: 0 0 0 40px;
+      color: #999;
+      font-size: 0; }
+      #shopping .details .de2 .num span {
+        font-size: 12px;
+        display: inline-block;
+        width: 24px;
+        height: 25px;
+        border: 1px solid #cecece;
+        line-height: 25px;
+        text-align: center;
+        font-size: 18px;
+        cursor: pointer;
+        vertical-align: middle; }
+      #shopping .details .de2 .num .cut {
+        margin-left: 20px; }
+      #shopping .details .de2 .num .add {
+        color: #333; }
+      #shopping .details .de2 .num .txt {
+        font-size: 12px;
+        border: none;
+        width: 50px;
+        height: 25px;
+        border-top: 1px solid #cecece;
+        border-bottom: 1px solid #cecece;
+        text-align: center;
+        vertical-align: middle; }
+      #shopping .details .de2 .num b {
+        font-size: 12px;
+        vertical-align: middle;
+        margin-left: 15px; }
+  #shopping .details .de3 {
+    margin-left: 70px; }
+  #shopping .details .de4 {
+    margin-left: 122px;
+    cursor: pointer; }
+#shopping .allsel {
+  margin-top: 20px;
+  height: 50px;
+  border: 1px solid #cecece; }
+  #shopping .allsel .inpt {
+    position: relative;
+    display: inline-block;
+    margin: 20px 0 0 25px; }
+    #shopping .allsel .inpt b {
+      display: inline-block;
+      position: absolute;
+      width: 30px;
+      top: -2px;
+      left: 20px; }
+  #shopping .allsel .paybar {
+    vertical-align: top;
+    margin: 18px 0 0 35px;
+    display: inline-block; }
+    #shopping .allsel .paybar a {
+      margin: 0 6px;
+      color: #666; }
+      #shopping .allsel .paybar a:hover {
+        text-decoration: underline; }
+  #shopping .allsel .numn {
+    height: 50px;
+    line-height: 50px; }
+    #shopping .allsel .numn i {
+      color: #f07;
+      padding: 0 5px; }
+  #shopping .allsel .price {
+    height: 50px;
+    color: #f07;
+    font-size: 26px;
+    position: relative;
+    top: 5px;
+    padding: 0 10px 0 0; }
+  #shopping .allsel #resolution {
+    display: inline-block;
+    height: 50px;
+    padding: 0 40px;
+    line-height: 54px;
+    font-size: 18px;
+    background: #cecece;
+    color: #f1f1f1; }
+
+#deleg {
+  display: none;
+  height: 100px;
+  border: 1px solid #cecece;
+  margin-top: 15px; }
+  #deleg p {
+    height: 32px;
+    line-height: 32px;
+    background: #f1f1f1;
+    margin: 36px 0 0 0;
+    text-indent: 35px; }
+    #deleg p a {
+      text-decoration: underline; }
+
+#bigmei {
+  position: relative; }
+  #bigmei .bigme {
+    position: absolute;
+    left: 82px;
+    top: 0;
+    z-index: 2;
+    display: none; }
+    #bigmei .bigme .im2 {
+      display: block;
+      width: 200px;
+      height: 200px;
+      border-radius: 2px; }
+#num{
+	color:#f07;
+}
+#num1{
+	color:#f07;
+}
+/*# sourceMappingURL=list.css.map */

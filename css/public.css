@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;}
+a{text-decoration:none;color:#333;}
+li{list-style:none;}
+i{font-style: normal;}
+b{font-weight: 300;}
+body{word-wrap:break-word;color:#333;font:12px/1.6 tahoma,arial,sans-serif;}/*英文数字会换行*/
+.over{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}/*单行文本出现省略号，必备三条*/
+
+.valign{text-align:center;}
+.valign i{display:inline-block;vertical-align:middle;width:0px;height:100%}
+.valign img{vertical-align:middle;}
+
+/*万能清除法*/
+.clear{zoom:1;}/*兼容IE*/
+.clear:after{content:"";display:block;clear:both;}
+
+
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix::after,
+.clearfix::before
+{
+	content:"";
+	display: table;
+}
+input{
+	margin:0;
+	padding:0;
+	outline: 0;
+}
+.wrap1{
+	width:1200px;
+	margin:0 auto;
+};
+

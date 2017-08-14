@@ -1,0 +1,246 @@
+#logo{
+    height:97px;
+    .logo{
+        padding:20px;
+        img{
+            display: block;
+            width:220px;
+            height:52px;
+            
+        }
+    }
+}
+#main{
+    width:100%;
+    height:600px;
+    background: url(../images/login.png) no-repeat center center;
+    .loging{
+        position: relative;
+        width:400px;
+        
+        background:#ffeceb;
+        background: rgba(255,236,235,.9);
+        left:864px;
+        top:100px;
+        right:0;
+        
+        .login_tab{
+            width:394px;
+            height:54px;
+            border-bottom: 1px solid #999;
+            margin-left: 6px;
+            margin-bottom:15px;
+            .tab1{
+                width:197px;
+                height:54px;
+                 a{
+                    display: block;
+                    margin-left: 68px;
+                    margin-top:11px;
+                    font-size:16px;
+                    width:120px;
+                    height:43px;
+                    line-height:43px;
+                    color:#333; 
+                }
+                
+            }
+            .tab2{
+                width:197px;
+                height:54px;
+               a{
+                    margin-left: 21px;
+                    margin-top:11px;
+                    display: block;
+                    width:120px;
+                    height:43px;
+                    border-bottom:2px solid #f07;
+                    font-size: 16px;
+                    line-height: 43px;
+                    text-align: center;
+                    color:#f07;
+                }
+            }
+            .toggle{
+                width:46px;
+                height:46px;
+                position: absolute;
+                top:5px;
+                right:5px;
+                background:url(../images/ma.png) no-repeat;
+                cursor: pointer;
+            }
+        }
+        .login_box{
+            width:314px;
+            margin: 0 auto;
+            input{
+                width:191px;
+                height:37px;
+                border:none;
+                border:1px solid #999;
+                background: none;
+                text-indent: 10px;
+                border-color: #cfcfcf;
+                line-height: 38px;
+            }
+            .ertip{
+                background: url(../images/shou.png) 12px no-repeat #fffff8;
+                border:1px solid #ffd797;
+                margin-bottom: 10px;
+                height:30px;
+                line-height: 30px;
+                color:#ff1877;
+                padding-left: 40px;
+                display: none;
+            }
+            .sel{
+                margin-bottom:15px;
+                height: 40px;
+                .sele{
+                    width:110px;
+                    height:40px;
+                    margin-right: 10px;
+                    border:1px solid #c4c4c4;
+                    padding:4px 35px 4px 16px;
+                    line-height: 1.5;
+                    border-radius: 0;
+                    color:#333;
+                    font-size: 14px;
+                    background: none;
+                    background: url(../images/sel.png) 100% no-repeat #fff;
+                    cursor: pointer;
+                    outline: 0;
+                    background-color: #ffebeb;
+                    transition: border-color .15s ease-in-out;
+                    appearance:none;
+                    -moz-appearance:none;
+                    -webkit-appearance:none;
+                    -ms-appearance:none;
+                }
+            }
+            .move{
+
+                .get{
+                    display: inline-block;
+                    width:107px;
+                    height:40px;
+                    line-height: 40px;
+                    text-align: center;
+                    margin-right:9px;
+                    color:#fff;
+                    background-color:#ff5777;
+                }
+            }
+        }
+        .lg_login{
+            width:314px;
+            margin:30px auto;
+            input{
+                width:314px;
+                height:40px;
+                background: #ff5777;
+                border: none;
+                cursor: pointer;
+                color:#fff;
+            }
+        }
+        .small_link{
+            width:314px;
+            margin: 0 auto;
+            a{
+                width:70px;
+                vertical-align: middle;
+                margin-right: 50px;
+                img{
+                    vertical-align: middle;
+                }
+            }
+        }
+        .zuce{
+            width:314px;
+            margin:30px auto;
+            padding-left: 225px;
+            a{
+                margin-right: 20px; 
+                text-decoration: underline;
+                &:nth-child(1){
+                    color:#666;
+                }
+                &:nth-child(2){
+                    color:#f07;
+                }
+            }
+        }
+    }
+}
+#foot{
+    background-color: #f5f5f5;
+    height:180px;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    h4{
+        margin-left: 30px;
+        height:35px;
+        line-height: 35px;
+        font-size: 16px;
+    }
+    .foot_t{
+        border-bottom: 1px solid #f07;
+        height:100px;
+        .tom{
+            width:300px;
+            height:100px;
+        }
+        .a_link{
+           width:200px;
+            a{
+                display: inline-block;
+                width:80px;
+                height:20px;
+                line-height: 16px;
+                font-size: 12px;
+                color: #999;
+            }
+        }
+        .a_links{
+            width:200px;
+            a{
+                display: inline-block;
+                width:60px;
+                height:20px;
+                line-height: 16px;
+                font-size: 12px;
+                color: #999;
+            }
+        }
+    }
+    .foot_b{
+        .p1{
+            margin-top:10px ;
+            height:30px;
+            font-size: 12px;
+            line-height: 30px;
+            a{
+                display: inline-block;
+                width:80px;
+                height:35px;
+                color: #666;
+                &:last-child{
+                    width:300px;
+                    color: #999;
+                }
+            }
+        }
+        .p2{
+            height:30px;
+            font-size: 12px;
+            line-height: 30px;
+            a{
+                display: inline-block;
+                margin-right: 10px;
+                color: #999;
+            }
+        }
+    }
+}

@@ -1,0 +1,168 @@
+#logo {
+  height: 97px; }
+  #logo .logo {
+    padding: 20px; }
+    #logo .logo img {
+      display: block;
+      width: 220px;
+      height: 52px; }
+
+#main {
+  width: 100%;
+  height: 600px;
+  background: url(../images/login.png) no-repeat center center; }
+  #main .loging {
+    position: relative;
+    width: 400px;
+    background: #ffeceb;
+    background: rgba(255, 236, 235, 0.9);
+		float:right;
+    margin-top:100px; }
+    #main .loging .login_tab {
+      width: 394px;
+      height: 54px;
+      border-bottom: 1px solid #999;
+      margin-left: 6px;
+      margin-bottom: 15px; }
+      #main .loging .login_tab h3 {
+        height: 54px;
+        line-height: 54px;
+        margin-left: 35px; }
+    #main .loging .login_box {
+      width: 314px;
+      margin: 0 auto; }
+      #main .loging .login_box input {
+        width: 191px;
+        height: 37px;
+        border: none;
+        border: 1px solid #999;
+        background: none;
+        text-indent: 10px;
+        border-color: #cfcfcf;
+        line-height: 38px; }
+      #main .loging .login_box .ertip {
+        background: url(../images/shou.png) 12px no-repeat #fffff8;
+        border: 1px solid #ffd797;
+        margin-bottom: 10px;
+        height: 30px;
+        line-height: 30px;
+        color: #ff1877;
+        padding-left: 40px;
+        display: none; }
+      #main .loging .login_box .sel {
+        margin-bottom: 15px;
+        height: 40px; }
+        #main .loging .login_box .sel .sele {
+          width: 110px;
+          height: 40px;
+          margin-right: 10px;
+          border: 1px solid #c4c4c4;
+          padding: 4px 35px 4px 16px;
+          line-height: 1.5;
+          border-radius: 0;
+          color: #333;
+          font-size: 14px;
+          background: none;
+          background: url(../images/sel.png) 100% no-repeat #fff;
+          cursor: pointer;
+          outline: 0;
+          background-color: #ffebeb;
+          transition: border-color .15s ease-in-out;
+          appearance: none;
+          -moz-appearance: none;
+          -webkit-appearance: none;
+          -ms-appearance: none; }
+      #main .loging .login_box .move .get {
+        display: inline-block;
+        width: 107px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        margin-right: 9px;
+        color: #fff;
+        background-color: #ff5777; }
+    #main .loging .lg_login {
+      width: 314px;
+      margin: 30px auto; }
+      #main .loging .lg_login input {
+        width: 314px;
+        height: 40px;
+        background: #ff5777;
+        border: none;
+        cursor: pointer;
+        color: #fff; }
+    #main .loging .small_link {
+      width: 314px;
+      margin: 0 auto; }
+      #main .loging .small_link a {
+        width: 70px;
+        vertical-align: middle;
+        margin-right: 50px; }
+        #main .loging .small_link a img {
+          vertical-align: middle; }
+    #main .loging .zuce {
+      margin: 30px auto;
+      padding-left: 225px; }
+      #main .loging .zuce a {
+        margin-right: 20px;
+        text-decoration: underline;
+        margin-left: 40px;
+        font-size: 12px; }
+
+#foot {
+  background-color: #f5f5f5;
+  height: 180px;
+  padding-top: 150px;
+  padding-bottom: 20px; }
+  #foot h4 {
+    margin-left: 30px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px; }
+  #foot .foot_t {
+    border-bottom: 1px solid #f07;
+    height: 100px; }
+    #foot .foot_t .tom {
+      width: 300px;
+      height: 100px; }
+    #foot .foot_t .a_link {
+      width: 200px; }
+      #foot .foot_t .a_link a {
+        display: inline-block;
+        width: 80px;
+        height: 20px;
+        line-height: 16px;
+        font-size: 12px;
+        color: #999; }
+    #foot .foot_t .a_links {
+      width: 200px; }
+      #foot .foot_t .a_links a {
+        display: inline-block;
+        width: 60px;
+        height: 20px;
+        line-height: 16px;
+        font-size: 12px;
+        color: #999; }
+  #foot .foot_b .p1 {
+    margin-top: 10px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px; }
+    #foot .foot_b .p1 a {
+      display: inline-block;
+      width: 80px;
+      height: 35px;
+      color: #666; }
+      #foot .foot_b .p1 a:last-child {
+        width: 300px;
+        color: #999; }
+  #foot .foot_b .p2 {
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px; }
+    #foot .foot_b .p2 a {
+      display: inline-block;
+      margin-right: 10px;
+      color: #999; }
+
+/*# sourceMappingURL=logon.css.map */

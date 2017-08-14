@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/list.css"/>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/list.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<!--固定侧边栏-->
+		<div id="fixedbar">
+			<div class="photo">
+				
+			</div>
+			<div class="car">
+				<a href="#">
+					<i></i>
+					<div class="small">
+						购物车
+					</div>
+				</a>
+			</div>
+			<div class="juan">
+				<a href="#">
+					<i></i>
+					<div class="small">
+						优惠卷
+					</div>
+				</a>
+			</div>
+			<div class="money">
+				<a href="#">
+					<i></i>
+					<div class="small">
+						钱包
+					</div>
+				</a>
+			</div>
+			<div class="footer">
+				<a href="#">
+					<i></i>
+					<div class="small">
+						足迹
+					</div>
+				</a>
+			</div>
+			<div class="Top">
+				<a href="#">
+					<i>^</i>
+					<div class="small">
+						TOP
+					</div>
+				</a>
+			</div>
+		</div>
+		<div id="header" class="site-top-nav">
+			<div class="wrap wrap1">
+				<a class="home fl" href="index.html">蘑菇街首页</a>
+				<ul class="header-top">
+					<li class="sl">
+						<a href="logon.html">注册</a>
+					</li>
+					<li class="sl">
+						<a href="login.html">登录</a>
+					</li>
+					<li class="sl myorder has-line">
+						<a href="javascript:;">我的订单</a>
+					</li>
+					<li class="sl has-line shopping-cart-v2">
+						<a class="cart-info-wrap" href="shopcart.html">购物车</a>
+						<i class="icon-delta"></i>
+						<!--<span class="shopping-cart-loading"></span>-->
+						<div class="shop-cart-info empty-cart">购物车里没有商品！</div>
+					</li>
+					<li class="sl has-line has-icon custom-item">
+						<a href="javascript:;">客服服务</a>
+						<i class="icon-delta"></i>
+						<ol class="ext-mode">
+							<li class="s2">
+								<a href="index.html" target="_blank">消费者服务</a>
+							</li>
+							<li class="s2">
+								<a href="index.html" target="_blank">商家服务</a>
+							</li>
+							<li class="s2">
+								<a href="index.html" target="_blank">规则中心</a>
+							</li>
+						</ol>
+					</li>
+					<li class="sl has-line has-icon myxiaodian">
+						<a href="javascript:;">我的小店</a>
+						<i class="icon-delta"></i>
+						<ol class="ext-mode1">
+							<li class="s2">
+								<a href="index.html" target="_blank">后台管理</a>
+							</li>
+							<li class="s2">
+								<a href="index.html" target="_blank">商家社区</a>
+							</li>
+							<li class="s2">
+								<a href="index.html" target="_blank">商家培训</a>
+							</li>
+							<li class="s2">
+								<a href="index.html" target="_blank">市场入住</a>
+							</li>
+						</ol>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--中间区域-->
+		<div class="header_mid clearfix">
+			<div class="wrap wrap1 clearfix">
+				<a class="logo" href="index.html" title="蘑菇街首页"></a>
+
+				<div class="normal-search-content">
+					<div class="top_nav_search" id="nav_search_form">
+						<!--搜索框 -->
+						<div class="search_inner_box clearfix">
+							<div class="selectbox" data-v="1">
+								<span class="selected">搜商品
+	                        	<ol class="wo">
+		                            <li class="current" data-index="bao"><a href="#">商品</a></li>
+		                            <li data-index="shop"><a href="#">店铺</a></li>
+	                        	</ol>
+	                        </span>
+
+							</div>
+							<form action="/search/" method="get" id="top_nav_form">
+								<input class="ts_txt fl" id="ts_txt" value="宽松显瘦纯色短裤" type="text">
+								<ul id="list">
+									<li>
+										<a href="" class="act">历史记录</a>
+										<span class="del">
+											删除
+										</span>
+									</li>
+								</ul>
+								<input value="搜  索" class="ts_btn" type="submit">
+								<input value="bao" id="select_type" type="hidden">
+							</form>
+							<!--<div class="top_search_hint is-not-ie8-hack"></div>-->
+						</div>
+
+						<div class="ts_hotwords">
+							<a class="ts_hotword" href="list.html" style="color: #ff4466;">时尚套装</a>
+							<a class="ts_hotword" href="list.html" >手机壳</a>
+							<a class="ts_hotword" href="list.html" >双眼皮贴</a>
+							<a class="ts_hotword" href="list.html" style="color: #ff4466;">短袖t恤</a>
+							<a class="ts_hotword" href="list.html" style="color: #ff4466;">短裤</a>
+							<a class="ts_hotword" href="list.html">小白鞋</a>
+							<a class="ts_hotword" href="list.html">睡衣</a>
+							<a class="ts_hotword" href="list.html">口红</a>
+							<a class="ts_hotword" href="list.html">凉鞋</a>
+							<a class="ts_hotword" href="list.html">连衣裙</a>
+						</div>
+					</div>
+				</div>
+				<div class="mid_fr">
+					<a href="index.html" target="_blank" class="code_wrap"><img src="images/t2.png" alt="蘑菇街，我的买手街"></a>
+				</div>
+			</div>
+		</div>
+		
+		<div id="alls" class="wrap1">
+			<h3 class="all">所有分类 ></h3>
+			<div class="allz">
+				<div class="allg clear">
+					<h3 class="guo fl">国家</h3>
+					<ul class="fl">
+						<li><a href="list.html">中国内地</a></li>
+						<li><a href="list.html">日本</a></li>
+						<li><a href="list.html">韩国</a></li>
+						<li><a href="list.html">其他</a></li>
+						<span>多选</span>
+					</ul>
+				</div>
+				<div class="alll clear">
+					<h3 class="gui fl">规格类型</h3>
+					<ul class="fl">
+						<li><a href="list.html">正常规格</a></li>
+						<li><a href="list.html">套装</a></li>
+						<li><a href="list.html">量版装</a></li>
+						<li><a href="list.html">其他</a></li>
+						<span>多选</span>
+					</ul>
+				</div>
+				<div class="allb clear">
+					<h3 class="gub fl">保质期</h3>
+					<ul class="fl">
+						<li><a href="list.html">3年及以上</a></li>
+						<li><a href="list.html">3年</a></li>
+						<li><a href="list.html">2年</a></li>
+						<li><a href="list.html">1年以内</a></li>
+						<li><a href="list.html">1年</a></li>
+						<span>多选</span>
+					</ul>
+				</div>
+				<div class="allr clear">
+					<h3 class="gus fl">适合人群</h3>
+					<ul class="fl">
+						<li><a href="list.html">通用</a></li>
+						<li><a href="list.html">女</a></li>
+						<li><a href="list.html">成人</a></li>
+						<li><a href="list.html">男</a></li>
+						<span>多选</span>
+					</ul>
+				</div>
+				<div class="allx clear">
+					<h3 class="guh fl">筛选</h3>
+					<ul class="fl tee">
+						<li><a href="list.html">中国内地</a></li>
+						<li><a href="list.html">日本</a></li>
+						<li><a href="list.html">韩国</a></li>
+						<li><a href="list.html">其他</a></li>
+						<span>多选</span>
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div id="searchm" class="wrap1 clear">
+			<h3 class="fl">您可能还想搜 :</h3>
+			<div class="searchm_r fl">
+				<a href="list.html">网状双眼皮贴</a>
+				<a href="list.html">网状双眼皮贴</a>
+				<a href="list.html">网状双眼皮贴</a>
+				<a href="list.html">网状双眼皮贴</a>
+				<a href="list.html">网状双眼皮贴</a>
+				<a href="list.html">网状双眼皮贴</a>
+				<a href="list.html">网状双眼皮贴</a>
+				<a href="list.html">网状双眼皮贴</a>
+				<a href="list.html">网状双眼皮贴</a>
+			</div>
+		</div>
+		
+		<div id="price" class="wrap1">
+			<div class="price-l fl">
+				<a href="list.html">综合</a>|
+				<a href="list.html">销量</a>|
+				<a href="list.html">新品</a>|
+			</div>
+			<div class="price-c fl">
+				<input type="" name="" id="" value="￥" /> -
+				<input type="" name="" id="" value="￥" />
+				<a class="enter" href="list.html">确定</a>
+			</div>
+			<div class="price-r fl">
+				<a href="list.html">10-20</a>
+				<a href="list.html">20-30</a>
+				<a href="list.html">30-40</a>
+				<a class="ab">|</a>
+			</div>
+		</div>
+		
+		<div id="love" class="wrap1">
+			
+			<ul class="lovecon clear" id="lovecon">
+				<!--<li class="lover fl">
+					<img src="images/m1.jpg" />
+					<p>夏季新款甜美圆领气质宽松喇叭纯棉修身运动短裤韩版夏天裤装</p>
+					<div class="mit">
+						<b>￥88.0</b>
+						<s>￥188.88</s>
+						<span>8888</span>
+					</div>
+					<i>找相似</i>
+				</li>-->
+			</ul>
+			
+			<div class="page">
+				<a href="#">上一页</a>
+				<span id="nums">
+				
+				</span>
+				<a href="#">下一页</a>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+		<div id="foot">
+			<div class="wrap1">
+				<div class="foot_t clearfix">
+					<div class="foot_t_h fl tom">
+						<h4>-新手帮助-</h4>
+						<div class="a_link">
+							<a href="javascript:;">常见问题</a>
+							<a href="javascript:;">自助服务</a>
+							<a href="javascript:;">联系客服</a>
+							<a href="javascript:;">意见反馈</a>
+						</div>
+					</div>
+					<div class="foot_t_he fl tom">
+						<h4>-权益保障-</h4>
+						<div class="a_link">
+							<a href="javascript:;">全国包邮</a>
+							<a href="javascript:;">7天无理由退</a>
+							<a href="javascript:;">退货运费补贴</a>
+							<a href="javascript:;">限时发货</a>
+						</div>
+					</div>
+					<div class="foot_t_hel fl tom">
+						<h4>-支付方式-</h4>
+						<div class="a_link">
+							<a href="javascript:;">微信支付</a>
+							<a href="javascript:;">支付宝</a>
+							<a href="javascript:;">白付没支付</a>
+							
+						</div>
+					</div>
+					<div class="foot_t_help fl tom">
+						<h4>-移动客服端下载-</h4>
+						<div class="a_links">
+							<a href="javascript:;">蘑菇街</a>
+							<a href="javascript:;">美丽说</a>
+							<a href="javascript:;">uns引力</a>
+						</div>
+					</div>
+				</div>
+			<div class="foot_b">
+				<p class="p1">
+					<a href="javascript:;">关于我们</a>
+					<a href="javascript:;">招聘信息</a>
+					<a href="javascript:;">联系我们</a>
+					<a href="javascript:;">商家入住</a>
+					<a href="javascript:;">商家后台</a>
+					<a href="javascript:;">蘑菇商学员</a>
+					<a href="javascript:;">商家社区</a>
+					<a href="javascript:;">&copy;2017 Mogujie.com 杭州卷瓜网络有限公司</a>
+				</p>
+				<p class="p2">
+					<a href="javascript:;">营业执照注册号：330106000129004</a>|
+					<a href="javascript:;">网络文化经营许可证：浙网文（2016）0349-219号</a>|
+					<a href="javascript:;">增值电信业务经营许可证：浙B2-20110349</a>|
+					<a href="javascript:;">安全责任书</a>|
+					<a href="javascript:;">浙公网安备 33010602002329号</a>|
+
+				</p>
+			</div>
+			</div>
+			
+		</div>
+	</body>
+</html>
